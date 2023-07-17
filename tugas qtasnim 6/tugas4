@@ -1,0 +1,10 @@
+-- 1. 304 Not Modified
+-- Server memberi tahu browser bahwa resource tidak berubah sejak disimpan dalam cache.
+-- 2. 406 Not Acceptable
+-- Respons server bertentangan dengan nilai yang ditetapkan di header Accept
+-- 3. 411 Length Required
+-- Server akan mengirim response code ini saat permintaan tidak menentukan header Content-Length yang diperlukan oleh resource.
+-- 4. 417 Expectation Failed
+-- Server tidak bisa memenuhi persyaratan yang dinyatakan dalam kolom Expect request-header.
+-- 5. 502 Bad Gateway
+-- Server, yang berfungsi sebagai proxy, tidak bisa memenuhi permintaan klien karena telah menerima respons yang tidak valid dari server upstream.
